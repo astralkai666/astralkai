@@ -1,0 +1,127 @@
+/* laptops, large tablets */
+@media(max-width: 1000px) {
+
+    #home {
+
+        #footer {
+            padding: 20px 10px;
+        }
+    }
+
+    #portfolio {
+
+        .portfolio-capsule {
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+
+                .tile {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* tablet devices: */
+@media(max-width: 768px) {
+
+    #landing {
+
+        .landing-controls {
+
+            .btn {
+                background-color: rgba(128, 0, 128, 0.6);
+                color: $light-hue;
+            }
+        }
+    }
+
+    #home {
+
+        #footer {
+            flex-direction: column;
+    
+            .links {
+                margin: auto;
+                width: auto;
+                text-align: center;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    #about {
+        width: 90%;
+
+        p {
+            font-size: 16px;
+        }
+    }
+    
+    #portfolio {
+        width: 100%;
+
+        .portfolio-capsule {
+
+            .gallery {
+                grid-template-columns: repeat(1, 1fr);
+
+                .tile {
+
+                    &:hover {
+                        border-radius: 4px;
+                        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+                        transform: none;
+                        transition: none;
+                        z-index: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #nav {
+        display: none;
+
+        .nav-capsule {
+            .bi {
+                font-size: 24px;
+            }
+        }
+    }
+
+    #nav-mobile {
+        display: block;
+    }
+}
+
+
+
+/* small devices */
+@media(max-width: 552px) {
+
+    #landing {
+
+        .landing-controls {
+            margin-top: 40px;
+        }
+    }
+
+    #home {
+
+        #branding {
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    #about h2, #portfolio h2 {
+            font-size: 26px;
+    }
+}

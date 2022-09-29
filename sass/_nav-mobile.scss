@@ -1,0 +1,50 @@
+#nav-mobile {
+    margin: 10px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+
+    .nav-mobile-capsule {
+        margin: 0 10px 0 0;
+        display: flex;
+        flex-direction: column;
+
+        .tab.active {
+            background-color: #0088d4;
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+        }
+
+        .tab.active:hover {
+            background-color: #0088d4;
+            color: #ffffff;
+        }
+
+        .btn {
+            border-radius: 50%;
+            margin: 10px 0px;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            color: $dark-hue;
+
+            &:active {
+                transform: scale(1.2);
+            }
+        }
+
+        .bi {
+            font-size: 22px;
+        }
+
+        a {
+            color: #4d4d4d;
+            text-decoration: none;
+        }
+    }
+}

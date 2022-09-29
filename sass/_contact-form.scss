@@ -1,0 +1,49 @@
+#contact h4, #contact-form {
+    margin: auto;
+    width: 40%;
+}
+
+#contact-form {
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+
+    .log {
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        display: none;
+        @extend %fade-in;
+    }
+
+    .log-err {
+        background-color: red;
+        color: $light-hue;
+    }
+
+    .log-success {
+        background-color: green;
+        color: $light-hue;
+    }
+
+    .dual {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+
+    #submit {
+        border: none;
+        border-radius: 20px;
+    }
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+}

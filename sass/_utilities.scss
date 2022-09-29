@@ -1,0 +1,20 @@
+$light-hue: #f2f2f2;
+$dark-hue: #4d4d4d;
+$bg-light: #0088d4;
+
+
+%fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

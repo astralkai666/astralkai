@@ -1,0 +1,26 @@
+#portfolio {
+
+    .portfolio-capsule {
+        margin: auto;
+        width: 80%;
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+    
+            .tile {
+                height: 300px;
+                width: 300px;
+    
+                &:hover {
+                    border-radius: 6px;
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+                    transform: scale(1.1);
+                    transition: 0.3s;
+                    z-index: 3;
+                }
+            }
+        }
+    }
+}

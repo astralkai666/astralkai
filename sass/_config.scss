@@ -1,0 +1,13 @@
+*, h1, h2, h3, h4, h5, h6, div, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: $light-hue;
+    font-family: 'Laksaman', Arial, Helvetica, sans-serif;
+    font-size: 16.5px;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
