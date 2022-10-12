@@ -1,7 +1,7 @@
 <div id="landing">
     <div class="landing-capsule">
         <header class="text-center">
-            <h1>Astral Kai</h1>
+            <h1>Paul Simalumba</h1>
         </header>
 
         <div class="landing-intro text-center mt-2">

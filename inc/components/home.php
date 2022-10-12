@@ -1,6 +1,6 @@
 <div id="home">
     <header id="branding" class="text-center">
-        <h1 class="text-capitalize">Astral Kai</h1>
+        <h1 class="text-capitalize">Paul Simalumba</h1>
     </header>
 
     <main id="content-capsule">
@@ -10,7 +10,7 @@
             <div class="about mt-2">
                 <p class="mt-2">I don't really know how to talk or frankly thinking, write about myself, so please bear with me.</p>
 
-                <p class="mt-2">My real name is <b>Paul Simalumba</b> but I go by Astral Kai or AstralKai666 and NO I have no affiliations with the Devil or any of his business dealings whatsoever. I'm a self-taught web developer and graphic designer from Botswana. I'm always either coding, drawing, reading, surfing the web or designing graphics. I like taking walks out in nature. Hardcore gamer but winning is not important, fun is. I like history. I don't like politics. I find camping fun. I prefer Linux and the LAMPP stack. I'm arthritic. My favorite author is Roald Dahl. Favorite work by favorite author? it's Pig.</p>
+                <p class="mt-2">I'm a self-taught web developer and graphic designer. I'm always either coding, drawing, reading, surfing the web or designing graphics. I like taking walks out in nature. Hardcore gamer but winning is not important, fun is. I like history. I don't like politics. I find camping fun. I prefer Linux and the LAMPP stack. I'm arthritic. My favorite author is Roald Dahl. Favorite work by favorite author? it's Pig.</p>
 
                 <p class="mt-2">I prefer simplicity. All the best things in life aren't free. Rather lose the world and keep my soul. I'd volunteer for a no-return voyage to the Andromeda galaxy in the name of science. I have a Zebra-striped coffee mug named Zeke. If today were the last day of my life, I'd still be coding. I'd make a natural monk. I like the smell of baking bread and moist earth. I suck at driving because introvert - I daydream a lot!. I wish I had an invisibility cloak. I believe we can still save this planet. I believe life is what you make it because it's actually true. I like gardens. I love the outdoors. I'm fascinated by space. My pet plant's name is Alfie. I don't waste time on trivial things because life short.</p>
 
@@ -24,15 +24,15 @@
                 <!-- <p class="">To view images in original dimensions, right-click on image, click 'save image as' and open them in your device!. </p> -->
 
                 <div class="gallery mt-4">
-                    <img src="gallery/g1045.png" class="tile" alt="">
-                    <img src="gallery/g1326.png" class="tile" alt="">
-                    <img src="gallery/g1444.png" class="tile" alt="">
-                    <img src="gallery/g1515.png" class="tile" alt="">
-                    <img src="gallery/g1618.png" class="tile" alt="">
-                    <img src="gallery/g2186.png" class="tile" alt="">
-                    <img src="gallery/g2661.png" class="tile" alt="">
-                    <img src="gallery/g1305.png" class="tile" alt="">
-                    <img src="gallery/g13249.png" class="tile" alt="">
+                    <img src="gallery/blimptatt.png" class="tile" alt="">
+                    <img src="gallery/blu.png" class="tile" alt="">
+                    <img src="gallery/imagine.png" class="tile" alt="">
+                    <img src="gallery/kolorkoded.png" class="tile" alt="">
+                    <img src="gallery/origin.png" class="tile" alt="">
+                    <img src="gallery/red.png" class="tile" alt="">
+                    <img src="gallery/shack.png" class="tile" alt="">
+                    <img src="gallery/sun.png" class="tile" alt="">
+                    <img src="gallery/verdant.png" class="tile" alt="">
                 </div>
             </div>
         </div><!-- ./portfolio -->

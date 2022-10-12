@@ -42,7 +42,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
     <link rel="shortcut icon" type="img/jpg" href="imgs/ico.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <title>Astral Kai | Coding & Art!</title>
+    <title>Paul Simalumba | Coding & Art!</title>
 </head>
 <body>
     <?php require_once 'inc/app.php'; ?>
